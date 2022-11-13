@@ -1,0 +1,142 @@
+img {
+  width:100%;
+  height:100%;
+  position: fixed;
+  z-index: -100;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+/*Boton Inicio de Sesion*/
+.Botones .boton_is {
+  width: 15%;
+	margin: auto;
+	padding: 15px 0;
+	display: inline-flex;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.5);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  border-radius:22px;
+  transition: .4s ease-in-out all;
+	position: absolute;
+	left: 2.5%;
+}
+.boton_is .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -350px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+.boton_is svg {
+	color: #000;
+	width: 35px;
+	height: 35px;
+}
+.boton_is:hover {
+	background: #FFF;
+	color: #000;
+}
+.boton_is:hover a {
+  color: #000;
+}
+.boton_is:hover .icono {
+	left: 80%;
+	opacity: 1;
+}
+/*Boton Registro de Cuenta*/
+.Botones .boton_rs {
+  width: 15%;
+	margin: auto;
+	padding: 15px 0;
+	display: inline-flex;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.5);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  border-radius:22px;
+  position: absolute;
+	left: 82.5%;
+  transition: .4s ease-in-out all;
+}
+.boton_rs .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+  display: inline-flex;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+.boton_rs svg {
+	color: #000;
+	width: 35px;
+	height: 35px;
+}
+.boton_rs:hover {
+	background: #FFF;
+	color: #000;
+}
+.boton_rs:hover a {
+  color: #000;
+}
+.boton_rs:hover .icono {
+	left: 80%;
+	opacity: 1;
+}
+/*Botones en lista*/
+.Botones .boton_ls {
+  width: 50%;
+	margin: auto;
+	padding: 25px 0;
+	display: inline-flex;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.5);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  border-radius:22px;
+  transition: .4s ease-in-out all;
+	position: absolute;
+	left: 25%;
+}
+.Botones a {
+  color: #FFF;
+}
+.boton_ls .icono {
+  display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+.boton_ls svg {
+  color: #000;
+	width: 35px;
+	height: 35px;
+}
+.boton_ls:hover {
+  background: #FFF;
+	color: #000;
+}
+.boton_ls:hover a {
+  color: #000;
+}
+.boton_ls:hover .icono {
+  left: 90%;
+	opacity: 1;
+}
